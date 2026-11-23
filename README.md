@@ -84,6 +84,17 @@ With ~33 g per motor on a charged battery that's ~130 g of thrust, about **2.4�
 
 <img src="media/photos/21-weight-budget-whiteboard.jpg" width="260" alt="Weight and thrust budget on a whiteboard">
 
+## Videos
+
+Click a title to watch.
+
+- **[First motor spinning](media/videos/v01-first-motor-spin.mp4)** — The first time a motor spun from my own code: XIAO ESP32-S3 → DRV8833 → 8520 motor with a prop, MicroPython running on the laptop next to it.
+- **[First MPU6050 readings](media/videos/v08-mpu6050-work.mp4)** — The MPU6050 on a breadboard. I move it by hand and the acceleration (g), rotation (°/s) and temperature change live in the ViperIDE terminal.
+- **[Thrust test on a kitchen scale](media/videos/v03-thrust-test-on-scale.mp4)** — Motor with a prop on a holder, pushing on the scale — the number on the scale is the thrust. This test showed the DRV8833 was losing almost half of it (~20 g vs ~35 g).
+- **[Testing my 4-channel driver board](media/videos/v05-driver-board-testing.mp4)** — The finished board on the bench with the multimeter next to it: checking the connections and the channels before the motors go on.
+- **[Motors one by one on the cardboard frame](media/videos/v07-cardboard-motor-sequence.mp4)** — The motors spin in turn while I point at each one — checking which number is which corner and which way each motor spins.
+- **[Props on, on the cardboard frame](media/videos/v12-cardboard-props-spinning.mp4)** — Same frame with props on and the battery on board — checking the motors and wires hold up with real load.
+
 ## Photos
 
 | Day one: the plan | My 4-channel driver (1.4 g) | PID on a whiteboard |

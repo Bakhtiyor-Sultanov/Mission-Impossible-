@@ -28,6 +28,7 @@ Started with zero power-electronics knowledge. Considered a ready-made ESP32 dro
 - **Learned:** board labels (D0, D1…) and GPIO numbers are not the same thing.
 
 ▶ [Video: first motor spinning](media/videos/v01-first-motor-spin.mp4)
+*The first time a motor spun from my own code: XIAO ESP32-S3 → DRV8833 → 8520 motor with a prop, MicroPython running on the laptop next to it.*
 
 ## Nov 14 — Driver overheating
 
@@ -65,6 +66,7 @@ Started with zero power-electronics knowledge. Considered a ready-made ESP32 dro
 <img src="media/photos/28-first-mpu-readings.jpg" width="360" alt="ViperIDE showing the first accelerometer, gyro and temperature readings">
 
 ▶ [Video: working with the MPU6050](media/videos/v08-mpu6050-work.mp4)
+*The MPU6050 on a breadboard. I move it by hand and the acceleration (g), rotation (°/s) and temperature change live in the ViperIDE terminal.*
 
 ## ~Nov 17 — Thrust test: the driver was the bottleneck
 
@@ -80,6 +82,7 @@ Almost half the thrust was lost in the driver. On a 1S battery (3.7–4.2 V), th
 - **Lesson:** a part can be "rated for 3 A" and still be the wrong part — check its resistance at *your* voltage.
 
 ▶ [Video: thrust test on the kitchen scale](media/videos/v03-thrust-test-on-scale.mp4)
+*Motor with a prop on a holder, pushing on the scale — the number on the scale is the thrust.*
 
 ## ~Nov 17 — MOSFET bench test with parts from the lab cabinet
 
@@ -128,6 +131,7 @@ Goal: all four drivers on one tiny board, battery connected once.
 | <img src="media/photos/14-driver-board-top.jpg" width="260"> | <img src="media/photos/15-driver-board-back.jpg" width="260"> |
 
 ▶ [Video: testing the driver board](media/videos/v05-driver-board-testing.mp4)
+*The finished board on the bench with the multimeter next to it: checking the connections and the channels before the motors go on.*
 
 - **Bug 1:** nothing worked. The ESP32 ground didn't beep to the board's ground — a joint that looked soldered but wasn't. Without a common ground the MOSFETs never open.
 - **Bug 2:** with the battery on one pad, only motor 1 worked. The four + pads sit in four corners and **aren't connected to each other** on the board — I had missed the wire that links them. Fixed with an insulated wire looped around all four + pads:
@@ -155,6 +159,7 @@ Goal: all four drivers on one tiny board, battery connected once.
 <img src="media/photos/16-cardboard-frame.jpg" width="320" alt="Cardboard X frame with four motors, held in front of the frame v1 model on screen">
 
 ▶ [Video: motors spinning one by one on the cardboard frame](media/videos/v07-cardboard-motor-sequence.mp4) · [with props on](media/videos/v12-cardboard-props-spinning.mp4)
+*First video: the motors spin in turn while I point at each one — which number is which corner, which way each spins. Second: props on and the battery on board.*
 
 ## ~Nov 20 — Four hours of re-soldering because of motor direction
 
