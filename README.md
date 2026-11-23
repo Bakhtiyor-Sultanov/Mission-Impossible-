@@ -78,9 +78,10 @@ How the PID works, with numbers: [docs/PID_NOTES.md](docs/PID_NOTES.md)
 | Driver board with diodes and resistors (measured) | 1.4 |
 | Frame (3D-printed v1, PLA — from the model) | ~6.2 |
 | Props, capacitor, wires | ~5 |
-| **Total** | **~52–55** |
+| **Total (estimate)** | **~52–55** |
+| **Measured, fully built (Nov 23)** | **58** |
 
-With ~33 g per motor on a charged battery that's ~130 g of thrust, about **2.4–2.5 : 1**.
+The real drone came out 3–6 g heavier than the estimate — wires, solder and hot glue add up. With ~33 g per motor on a charged battery that's ~132 g of thrust for 58 g: **about 2.3 : 1**. On a tired battery (~27–28 g per motor) it drops to **~1.9 : 1** — still flyable, but with little margin.
 
 <img src="media/photos/21-weight-budget-whiteboard.jpg" width="260" alt="Weight and thrust budget on a whiteboard">
 
